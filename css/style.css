@@ -1,0 +1,22 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+#container {
+  width: auto;
+  max-width: 1000px;
+  height: auto;
+}
+
+ul {
+  list-style-type: none;
+}
+
+img {
+  width: 500px;
+  height: auto;
+}
+
+h1 {
+  font: 48px;
+}
