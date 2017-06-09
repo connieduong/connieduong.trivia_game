@@ -1,5 +1,7 @@
 ![Big Bang Logo](img/bigbanglogo.png)
 ![Cast Photo](img/Big-Bang.jpg)
+
+
 ##Trivia Game 
 
 A 2-Player, turn-based, trivia game based on the CBS hit television show ***The Big Bang Theory***.
