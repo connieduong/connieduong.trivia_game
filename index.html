@@ -2,23 +2,35 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Trivia Game</title>
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <title>The Big Bang Theory Trivia Game</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet" type="text/css"></link>
   </head>
-  <body>
-    <div id="logodiv">
-      <img src="img/bigbanglogo.jpg" alt="bigbangtheory">
-    </div>
-    <h1>Trivia Game</h1>
-    <div id='scoreBox'>
-        <div id='playerOne'></div>
-        <div id='playerTwo'></div>
-    </div>
-    <div id="quiz"></div>
-    <div id="answerChoices">
-    </div>
-    <div id="results"></div>
+    <body>
+      <div class="wrapper">
+      <div class="title"><img src="img/bigbanglogo.png" alt="bigbangtheory" id="logoimage">
+        <h1>Trivia Game</h1></div>
+        <img src="img/Big-Bang.jpg" id="cast">
+        <p><h3>How to Play:</h3>Each player take turns answering a question.
+              The first player that answers 3 questions correctly wins the game.
+              <div id='scoreBox'>
+                  <text id='playerOne'></text>
+                  <text id='playerTwo'></text>
+              </div>
+        </p>
+        <br>
+              <div id="quiz"></div>
+                  <div id="answerChoices">
+                      <ul class="answerUl">
+                        <li id="a"></li>
+                        <li id="b"></li>
+                        <li id="c"></li>
+                        <li id="d"></li>
+                      </ul>
+                  </div>
+                <div id="results"></div>
+          <div class="footer"></div>
+      </div>
     <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
     <script src="js/main.js"></script>
   </body>

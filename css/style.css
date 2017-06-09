@@ -1,22 +1,80 @@
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 18px;
+  background-color: #F5F5F5;
+  color: #383a3d
 }
 
-#container {
-  width: auto;
-  max-width: 1000px;
-  height: auto;
+h1 {
+  margin-top: -20px;
+  font-size: 50px;
+  float: right;
+  padding-right: 100px;
+  color: black;
+}
+
+p {
+  margin: 10px 0, 10px, 0;
+  line-height: 1.5;
+  max-width: 700px;
+  font-weight: 100;
+
+}
+
+#scoreBox {
+  font-size: 18px;
+  padding: 10px;
+  margin: 10px 50px;
+  color: #B33927;
+}
+
+#playerOne {
+  margin-right: 100px;
+}
+
+#quiz{
+  font-size: 18px;
+  margin-left: 70px;
 }
 
 ul {
   list-style-type: none;
 }
 
-img {
-  width: 500px;
+#logoimage {
+  width: auto;
   height: auto;
+  max-width: 70%;
+  max-height: 70%;
+  margin-bottom: -5px;
+  padding: 10px;
+  margin: 10px;
 }
 
-h1 {
-  font: 48px;
+#cast {
+  width: auto;
+  height: auto;
+  max-width: 60%;
+  max-height: 60%;
+  margin: -20px 0px 0px 50px;
+}
+#answerChoices {
+  margin: 0 40px;
+  position: relative;
+  max-width: 400px;
+}
+
+button {
+  font-size: 14px;
+  background: none;
+  height: 100 px;
+  width: auto;
+  padding: 10px;
+  border: none;
+  display: inline-block;
+  margin: auto;
+}
+
+button:hover {
+  border: 3px solid lightSkyBlue;
 }
