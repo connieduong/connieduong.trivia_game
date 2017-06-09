@@ -7,7 +7,7 @@ A 2-Player, turn-based, trivia game based on the CBS hit television show ***The 
 ##How to Player:
 Each player take turns answering a trivia question. The first player that answers 3 questions correctly wins the game.
 
-Play ***The Big Bang Theory*** **Trivia Game** [here](index.html).
+Play ***The Big Bang Theory*** **Trivia Game** [here](https://connieduong.github.io/connieduong.trivia_game/).
 
 ##Development & Technologies
 ***The Big Bang Theory*** **Trivia Game** was built using **HTML, CSS, Javascript, and jQuery library**.
