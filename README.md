@@ -13,8 +13,9 @@ Play ***The Big Bang Theory*** **Trivia Game** [here](https://connieduong.github
 ***The Big Bang Theory*** **Trivia Game** was built using **HTML, CSS, Javascript, and jQuery library**.
 
 ##User Stories
-* The alert pop-windows appearing after each question can be annoying. 
-* There's only a small pool of questions. 
+* Keep track of player scores.
+* Switch between players.
+* Alert if the answer is correct or wrong.
 
 
 ##MVP
@@ -34,6 +35,13 @@ Play ***The Big Bang Theory*** **Trivia Game** [here](https://connieduong.github
 * Create user accouts to keep track of previous games and scores.
 * Improve CSS styling such as divs, margins, create a "trivia game" logo and use "Impact" font to match the logo font.
 * Optimtized the website for moblie devices.
+* End the game before all the questions run out.
+* Display the correct answer, if the player select the wrong answer. 
+* Add more questions to keep the game running longer.
+
+##Bugs
+ * If all question have been played, there will been an error message due to the slice function.
+ * Questions can still be answer after the winner is determined. 
 
 ##Credit
 Some questions are from [Trivia Playing](http://www.triviaplaying.com/573-big-bang-theory.htm).
